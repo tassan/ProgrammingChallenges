@@ -1,0 +1,21 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1. Input, Processing and Output", "1. Input, Processing and Output", "{51B8538D-4122-480A-8591-EA9A7014759E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YourName", "YourName\YourName.csproj", "{C7A8A138-049C-4056-96AB-186212BF27C7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{C7A8A138-049C-4056-96AB-186212BF27C7} = {51B8538D-4122-480A-8591-EA9A7014759E}
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C7A8A138-049C-4056-96AB-186212BF27C7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C7A8A138-049C-4056-96AB-186212BF27C7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C7A8A138-049C-4056-96AB-186212BF27C7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C7A8A138-049C-4056-96AB-186212BF27C7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
