@@ -7,13 +7,25 @@ namespace SimpleMath
     {
         static void Main(string[] args)
         {
+            int firstNumber = 0;
+            int secondNumber = 0;
+
             Console.WriteLine("What is the first number");
             var inputFirstNumber = Console.ReadLine();
+            while (!int.TryParse(inputFirstNumber, out firstNumber))
+            {
+                Console.WriteLine("What is the first number");
+                inputFirstNumber = Console.ReadLine();
+            }
+
             Console.WriteLine("What is the second number?");
             var inputSecondNumber = Console.ReadLine();
+            while (!int.TryParse(inputSecondNumber, out secondNumber))
+            {
+                Console.WriteLine("What is the second number?");
+                inputSecondNumber = Console.ReadLine();
+            }
 
-            int firstNumber = Convert.ToInt32(inputFirstNumber);
-            int secondNumber = Convert.ToInt32(inputSecondNumber);
             Console.WriteLine($"{inputFirstNumber} + {inputSecondNumber} = {firstNumber + secondNumber}\n" +
                               $"{inputFirstNumber} - {inputSecondNumber} = {firstNumber - secondNumber}\n" +
                               $"{inputFirstNumber} * {inputSecondNumber} = {firstNumber * secondNumber}\n" +
